@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Labr3
+namespace lab3
 {
     public class Region // создан объект регион со свойсвами - название и года, поле изменение численности
     {
