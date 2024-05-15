@@ -8,13 +8,43 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using System.Data.OleDb;
+using Microsoft.Office.Interop.Excel;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using System.Windows.Forms.DataVisualization.Charting;
+using System.Numerics;
+
 namespace lab3
 {
     public partial class Form1 : Form
     {
+
+        //ListRegion listRegion = new ListRegion(); // создание объекта список регионов
         public Form1()
         {
+            
             InitializeComponent();
+            //dataGridView1.AllowUserToAddRows = false;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+
+        }
+
+        
+        private void button2_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+       
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+            
+
         }
     }
 }
