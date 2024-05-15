@@ -8,6 +8,7 @@ namespace lab3
 {
     internal class Region
     {
+        private string aaa;
         public string RegionName; // aaa
         public double N2009;
         public double N2010;
